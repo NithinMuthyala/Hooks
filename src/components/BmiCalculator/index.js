@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-
+import Basic from './Basic'
 import {
   MainContainer,
   Title,
@@ -70,6 +70,7 @@ const BmiCalculator = () => {
         src="https://assets.ccbp.in/frontend/hooks/bmi-levels-img.png"
         alt="bmi levels"
       />
+      <Basic/>
       <CardContainer>
         <MeasurementsContainer>
           <MeasurementCard>
